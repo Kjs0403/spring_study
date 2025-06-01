@@ -12,10 +12,10 @@ import static org.assertj.core.api.Assertions.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 class MemberServiceTest {
+
     MemberService memberService;
     MemoryMemberRepository memberRepository;
 
-    //Dependency Injection
     @BeforeEach
     public void beforeEach() {
         memberRepository = new MemoryMemberRepository();
